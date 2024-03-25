@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px 30px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #8c8d91;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 92%;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccd0d5;
+    margin: 10px 0;
+}
+
+input[type="text"]#first_name {
+    margin-right: 10px;
+}
+
+.question-mark {
+    display: inline-block;
+    background-color: #e4e6eb;
+    color: #050505;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.radio-label {
+    display: block;
+    margin: 10px 0;
+}
+
+.radio-container {
+    display: flex;
+    margin: 10px 0;
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio-box input[type="radio"] {
+    margin-right: 33px;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+button.button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.button:hover {
+    background-color: #166fe5;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+select[name="month"],
+select[name="day"],
+select[name="year"] {
+    margin-right: 5px;
+}
